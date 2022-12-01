@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "aoc2022"
+version = "0.1.0"
+description = "AOC2022 Solutions"
+authors = ["Tom Brearley"]
+readme = "README.md"
+packages = [{include = "solutions"}]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+pylint = "^2.15.7"
+mypy = "^0.991"
+isort = "^5.10.1"
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pylint.message_control]
+disable = [
+    "missing-module-docstring",
+    "missing-class-docstring",
+    "missing-function-docstring"
+]
+
+[tool.pylint.basic]
+good-names = [
+    "e",
+    "f",
+    "i",
+    "n"
+]
