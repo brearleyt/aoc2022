@@ -1,7 +1,7 @@
 import heapq
 from pathlib import Path
 
-from solutions.utils.groups import groups_from_file
+from solutions.utils.input import groups_from_file
 
 
 def _get_largest_n_calorie_sums(calories_list: Path, n: int) -> list[int]:

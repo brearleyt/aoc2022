@@ -1,6 +1,8 @@
 from enum import Enum, auto, unique
 from pathlib import Path
 
+from solutions.utils.input import lines_in_file
+
 
 @unique
 class Result(Enum):
@@ -121,7 +123,6 @@ def part_2(games: list[str]) -> int:
 
 
 if __name__ == "__main__":
-    with open(Path("input.txt"), encoding="utf-8") as f:
-        games = list(x.strip() for x in f)
+    games = lines_in_file(Path("input.txt"))
     print(part_1(games))
     print(part_2(games))

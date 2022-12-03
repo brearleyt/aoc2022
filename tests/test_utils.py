@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from solutions.utils.groups import groups_from_file
+from solutions.utils.input import groups_from_file
 
 
 def test_group_splitter_returns_correct_groups(resources_dir: Path) -> None:
