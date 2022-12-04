@@ -35,3 +35,10 @@ good-names = [
     "i",
     "n"
 ]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+disallow_untyped_defs = true
