@@ -33,7 +33,9 @@ good-names = [
     "e",
     "f",
     "i",
-    "n"
+    "n",
+    "x",
+    "y"
 ]
 
 [tool.mypy]
