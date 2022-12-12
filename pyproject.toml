@@ -9,6 +9,7 @@ packages = [{include = "solutions"}]
 [tool.poetry.dependencies]
 python = "~3.10"
 collections-extended = "^2.0.2"
+networkx = "^2.8.8"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.10.0"
@@ -34,6 +35,7 @@ good-names = [
     "e",
     "f",
     "i",
+    "j",
     "n",
     "x",
     "y"
