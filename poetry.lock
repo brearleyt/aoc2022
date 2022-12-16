@@ -271,6 +271,14 @@ tomli = {version = ">=1.0.0", markers = "python_version < \"3.11\""}
 testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "pygments (>=2.7.2)", "requests", "xmlschema"]
 
 [[package]]
+name = "python-ranges"
+version = "1.2.1"
+description = "Continuous Range, RangeSet, and RangeDict data structures"
+category = "main"
+optional = false
+python-versions = ">=3.9"
+
+[[package]]
 name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
@@ -305,7 +313,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.10"
-content-hash = "d2c83184577955e192076dc4d161fd57ce1cc32543ab75a3ddb34a2fa2b27990"
+content-hash = "acde842e4381fda268ffa963447053cdab2701bc26d60fb26788bdfa4cbf32d7"
 
 [metadata.files]
 astroid = [
@@ -459,6 +467,10 @@ pyparsing = [
 pytest = [
     {file = "pytest-7.2.0-py3-none-any.whl", hash = "sha256:892f933d339f068883b6fd5a459f03d85bfcb355e4981e146d2c7616c21fef71"},
     {file = "pytest-7.2.0.tar.gz", hash = "sha256:c4014eb40e10f11f355ad4e3c2fb2c6c6d1919c73f3b5a433de4708202cade59"},
+]
+python-ranges = [
+    {file = "python-ranges-1.2.1.tar.gz", hash = "sha256:8b6f04415e61f8e11f2ec1a2f278a2ed3da1dce91ee5838c19fc4380aeb46a88"},
+    {file = "python_ranges-1.2.1-py3-none-any.whl", hash = "sha256:f1bcd97387890ec3bb57572469c13db45bf5c571bd129f4ab4c69ae293ffb258"},
 ]
 tomli = [
     {file = "tomli-2.0.1-py3-none-any.whl", hash = "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc"},

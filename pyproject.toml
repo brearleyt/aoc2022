@@ -10,6 +10,7 @@ packages = [{include = "solutions"}]
 python = "~3.10"
 collections-extended = "^2.0.2"
 networkx = "^2.8.8"
+python-ranges = "^1.2.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.10.0"
